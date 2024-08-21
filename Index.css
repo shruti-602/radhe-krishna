@@ -1,0 +1,791 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.imagebg {
+  background-image: url(Image/bghome.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .imagebg {
+    background-color: #e8f2ff;
+    background-image: none;
+  }
+}
+
+.multi {
+  padding: 90px 30px 30px 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .multi {
+    padding: 5px;
+  }
+}
+
+.herosection_headline {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .herosection_headline {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    text-align: left;
+  }
+}
+
+.herosection_heading {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .herosection_heading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+  }
+}
+
+.get {
+  color: #ffffff;
+}
+
+.param {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: center;
+  color: #143584;
+}
+
+.our {
+  margin-left: 2%;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 46.88px;
+  text-align: center;
+}
+
+.card-group {
+  position: relative;
+  width: 80%;
+  margin-left: 120px;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.btn {
+  color: #143584;
+}
+
+/* slick btn css Desktop View */
+
+.slick-next:before {
+  content: "»" !important;
+}
+
+.slick-prev:before {
+  content: "«" !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  font-family: none !important;
+  padding: 10px !important;
+  color: #143584 !important;
+  border: 1px solid #143584;
+}
+
+.slick-prev,
+.slick-next {
+  top: 120% !important;
+}
+
+.slick-next {
+  right: 30% !important;
+  margin-top: -50px;
+}
+
+.slick-prev {
+  left: 30% !important;
+  margin-top: -50px;
+}
+
+/* =========== Hardik slick slider========== */
+.slider_nav_img {
+  padding: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_nav_img {
+    padding: 50px 10px 10px 10px !important;
+  }
+}
+
+.slider-for,
+.slider-nav {
+  width: 100%;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.slider-nav .slick-slide {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.slider-nav .slick-current {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.lorem-text {
+  font-size: 8px;
+  height: 50px;
+}
+
+/* ---------our treatment css ----------*/
+.pos-card {
+  position: absolute;
+  top: -32px;
+  bottom: 0;
+  left: 42px;
+  right: 0;
+}
+
+.box-icon {
+  background-color: transparent !important;
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+  left: 40px;
+  top: -20%;
+}
+
+.blank {
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgb(238, 238, 238);
+  border-radius: 5px;
+  filter: brightness(0);
+}
+
+.card-title {
+  margin-top: -30px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.icon_right {
+  position: relative;
+  margin-left: 6px;
+  top: 1.5px;
+}
+
+.card:hover {
+  background-color: #143584;
+  border-radius: 20px;
+  color: #e8f2ff;
+  cursor: pointer;
+
+  .blank {
+    filter: brightness(20);
+    box-shadow: 0px 0px 0px 1px white;
+  }
+
+  .btn1 {
+    color: white;
+
+    .read {
+      display: block;
+      color: white;
+    }
+  }
+}
+
+.btn1 {
+  text-decoration: none;
+  transition: 0.3s;
+  display: flex;
+}
+
+.read {
+  display: none;
+}
+
+.bg {
+  background-color: red;
+}
+
+.about-img {
+  margin-top: -90px !important;
+}
+
+.about_main {
+  width: 18rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about_main {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+
+/* ============= About Us ========== */
+
+.team1 {
+  height: 50%;
+  margin-left: 75px;
+}
+
+.team-2 {
+  margin-top: -90px;
+  height: 25%;
+  margin-left: 100px;
+}
+
+.team-3 {
+  margin-top: -90px;
+  height: 25%;
+  margin-left: 100px;
+}
+
+.view-btn {
+  margin-top: -15%;
+  margin-left: 3%;
+}
+
+.clip-path {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30% 0%);
+  background-color: #143584;
+  position: relative;
+  left: 80%;
+  width: 20%;
+  top: -50px;
+  height: 20px;
+  /* border-radius: 5px; */
+}
+
+.Homepage_ourTeam_btn {
+  background-color: #143584;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: center;
+}
+
+.card1 {
+  width: 20%;
+}
+
+/* ---------Our team------------ */
+.about_main1 {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .about_main1 {
+    margin-left: 25%;
+    display: flex;
+  }
+}
+
+.about_main1_card {
+  background-color: #fff;
+  box-shadow: 1px 1px 50px rgb(225, 225, 225);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.About_cards {
+  background-color: #ffffff;
+
+  border-radius: 15px;
+  padding: 15px;
+}
+
+/* ---------------------------  Radhe Krishna ---------------------- */
+
+.clip-radhe {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30% 0%);
+  background-color: #143584;
+  position: relative;
+  left: 80%;
+  width: 20%;
+  top: -132px;
+  height: 20px;
+  /* border-radius: 5px; */
+}
+
+.card-radhe {
+  position: relative;
+  /* Make the parent element relative */
+}
+
+.about_three_cards {
+  margin-top: -5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_three_cards_main {
+    background-color: white;
+    height: 70px;
+  }
+
+  .about_three_cards {
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_three_cards_main {
+    background-color: white;
+    height: 100%;
+  }
+}
+
+.team-box {
+  position: absolute;
+  bottom: -95px;
+  left: 5%;
+  right: 5%;
+  margin-bottom: 20px;
+  background-color: white;
+  color: #143584;
+  padding: 18px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  z-index: 1;
+
+}
+
+.team-box:hover {
+  background-color: #143584;
+  color: #eeeff2 !important;
+}
+
+.team-box:hover .icon-team {
+  color: #eeeff2 !important;
+}
+
+.team-box:hover .clip-radhe {
+  background-color: #ffffff;
+}
+
+.icon-team {
+  position: relative;
+  margin-right: 18px;
+  top: -15px;
+  font-size: 25px;
+  color: #143584;
+}
+
+@media screen and (max-width: 768px) {
+  .About_cards3 {
+    margin-left: 25%;
+  }
+}
+
+
+
+
+/* ---------Review-------- */
+@media screen and (max-width:320px) {
+  .carousel-control-prev {
+    position: relative;
+    left: 10px;
+  }
+}
+
+.Testimonial_bg {
+  background: url("./Image/bg_Testi.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonial_bg {
+    background: url("./Image/bg_Testi_mobile.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.review-img1 {
+  position: relative;
+  margin-top: -40%;
+  margin-right: 60%;
+}
+
+.review-img2 {
+  position: relative;
+  margin-top: -42%;
+  margin-left: 60%;
+}
+
+.review-img3 {
+  position: relative;
+  margin-right: 90%;
+}
+
+.review-img4 {
+  position: relative;
+  margin-left: 80%;
+  margin-top: -70px;
+}
+
+.review-icon1 {
+  margin-right: -100px;
+}
+
+.review-icon2 {
+  margin-left: -150px;
+}
+
+
+
+
+/* ============ blog and news ============= */
+
+
+
+.param1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: center;
+  color: #143584;
+  margin-left: 2%;
+}
+
+.our1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 46.88px;
+  text-align: start;
+  /* margin-right: 42%; */
+}
+
+.Homepage_ourTeam_btn2 {
+  background-color: #143584;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: center;
+  margin-left: -74%;
+}
+
+.blog-in-img {
+  margin-top: -10%;
+}
+
+.card-title-blog {
+  color: #143584;
+  font-size: 22px;
+}
+
+.Homepage_ourTeam_btn-form {
+  background-color: #143584;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: center;
+  width: 20%;
+}
+
+
+
+
+.get-in {
+  height: 485px;
+  top: 6265px;
+  left: 240px;
+  border: 1px 0px 0px 0px;
+}
+
+.get-in-img {
+  margin-bottom: 70px;
+}
+
+
+
+/* =========== Footer ========== */
+
+/* Importing Google font - Open Sans */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap'); */
+
+.footer {
+  background: #edf1fd;
+  background-image: url('./Image/footer_bg_img1.png');
+  background-size: 100%;
+  background-position: 10% 100%;
+  background-repeat: no-repeat;
+}
+.footer-icon{
+  color: #143584;
+}
+
+.footer-subscribe {
+  margin-left: 149px;
+  background-color: #ffff;
+  margin-top: -90px;
+}
+
+@media screen and (max-width:768px) {
+  .footer-subscribe {
+    margin-left: 15%;
+  }
+}
+
+
+.footer-contact {
+  margin-left: 15px;
+}
+
+.footer-end {
+  margin-left: 40%;
+}
+
+.footer-text-size {
+  font-size: 15px;
+
+}
+
+.main_page_img {
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .main_page_img {
+    width: 127px;
+  }
+}
+
+.our-line {
+  border-right: 1px solid gray;
+}
+
+@media screen and (max-width:800px) {
+
+  .our-line {
+    border-right: none;
+  }
+}
+
+/* =================== Extra CSS =============== */
+
+.mobile_view {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop_view {
+    display: none;
+  }
+
+  .mobile_view {
+    display: block;
+  }
+}
+
+.card:hover .box-icon {
+  background-color: #143584 !important;
+}
+
+.card-height {
+  height: 275px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+/* ============================  About ============================ */
+
+
+/* slick btn css Desktop View */
+
+.slick-next2:before {
+  content: "»" !important;
+}
+
+.slick-prev2:before {
+  content: "«" !important;
+}
+
+.slick-prev2:before,
+.slick-next2:before {
+  color: black !important;
+  font-family: none !important;
+  padding: 10px !important;
+  color: #143584 !important;
+  border: 1px solid #143584;
+}
+
+.slick-prev2,
+.slick-next2 {
+  top: 120% !important;
+}
+
+.slick-next2 {
+  right: 30% !important;
+  margin-top: -50px;
+}
+
+.slick-prev2 {
+  left: 30% !important;
+  margin-top: -50px;
+}
+
+
+
+/* ----------------------- Service Carousel -------------------- */
+.slider-fors,
+.slider-navs {
+  width: 100%;
+  margin: auto;
+  transition: 0.5s;
+
+}
+
+.slider-navs .slick-slide {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.slider-navs .slick-current {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.OurService_carousel {
+  padding: 10px;
+}
+
+.slider_nav_img1 {
+  padding: 25px;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_nav_img1 {
+    padding: 50px 10px 10px 10px !important;
+    border-radius: 0px;
+  }
+}
+
+
+  /* -----------Our Departments------------  */
+
+.ouricon{
+ color: #143584;
+ font-size: 20px;
+ margin-right: 10px;
+ }
+.joint-text{
+  color: #143584;
+ }
+ .ourthin{
+  margin-left: 25px;
+  color: rgba(75, 76, 77, 0.607);
+ }
+ .out-text{
+  padding: 40px;
+    color: rgba(75, 76, 77, 0.607);
+ }
+
+
+
+ /* ----------opd--------- */
+ .card-title1{
+  color: #143584;
+ }
+
+ /* ---------our team--------- */
+
+ .bharat{
+  color: #143584;
+  right: 30px;
+ }
+ .teamicon{
+  color: #143584;
+  margin-right: 10px;
+ }
+ .surgeon{
+  margin-left: 36px;
+ }
+ .team-main{
+  margin-top: -20px;
+  font-size: 18px;
+  }
+ 
+
+  /* ---------blogin----------- */
+  .lorem-hight{
+    font-size: 17px;
+  }
+.card-title-blog2 {
+   font-size: 18px;
+   margin-top:  -15%;
+}
+.card-text2{
+  font-size: 10px;
+}
+
+  
+/* ---------Book Appointment----------- */
+
+.book-bg{
+  background: url(./Image/book.png);
+  
+ }
+ .book1{
+  color: #143584;
+ }
+ .book2{
+  color: black;
+  }
+
